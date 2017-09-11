@@ -1,0 +1,791 @@
+{
+	"age": 0,
+	"gender": "",
+	"constitution": "",
+	"viscera": "",
+	"other": "",
+	"subhealth": {
+		"抗疲劳": {
+			"label": "抗疲劳",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 15,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花参宝片",
+				"松花芪蓉酒",
+				"松花粉",
+				"玛咖压片糖果"
+			]
+		},
+		"改善肤色": {
+			"label": "改善肤色",
+			"conditions": [
+				{
+					"type": "gradePhoto",
+					"no": 2,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"靓颜胶囊",
+				"番茄红素软胶囊",
+				"香兰阁珍白系列",
+				"焕彩修容霜"
+			]
+		},
+		"改善腰膝酸软": {
+			"label": "改善腰膝酸软",
+			"conditions": [],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花杞黄酒",
+				"松花杞蓉酒"
+			]
+		},
+		"改善焦虑，宁心安神": {
+			"label": "改善焦虑，宁心安神",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 18,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"米珍油",
+				"竹叶清茶",
+				"冷榨亚麻籽油",
+				"天赐余甘压片糖果",
+				"磷脂大豆异黄酮软胶囊(女性)",
+				"双松片"
+			],
+			"other": "其他题目，其他题目+其他题目"
+		},
+		"改善睡眠": {
+			"label": "改善睡眠",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 14,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"双松片"
+			]
+		},
+		"改善脾胃功能": {
+			"label": "改善脾胃功能",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 11,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"青梅压片糖果",
+				"参黄淮山粉"
+			]
+		},
+		"改善肠道功能": {
+			"label": "改善肠道功能",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 8,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"竹叶清茶",
+				"松花木寡糖颗粒",
+				"压榨油茶籽油"
+			]
+		},
+		"改善便秘": {
+			"label": "改善便秘",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 5,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花木寡糖颗粒",
+				"冷榨亚麻籽油"
+			]
+		},
+		"增强免疫力": {
+			"label": "增强免疫力",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 15,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"松花参宝片",
+				"天赐余甘压片糖果",
+				"松花钙奶粉",
+				"大蒜油软胶囊",
+				"净水器",
+				"浓缩洗洁精",
+				"浓缩多功能清洁剂",
+				"口罩",
+				"空气净化器",
+				"洗手液"
+			]
+		},
+		"改善记忆": {
+			"label": "改善记忆",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 17,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"米珍油",
+				"DHA藻油亚麻籽油软胶囊",
+				"冷榨亚麻籽油"
+			]
+		},
+		"改善口气": {
+			"label": "改善口气",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 9,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"竹盐配方牙膏",
+				"益齿护龈牙膏",
+				"皓齿清新牙膏",
+				"细致护理型牙刷",
+				"口腔清新喷雾剂",
+				"深度护理漱口水"
+			]
+		},
+		"改善体型": {
+			"label": "改善体型",
+			"conditions": [
+				{
+					"type": "gradePhoto",
+					"no": 4,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"竹叶清茶",
+				"压榨油茶籽油",
+				"竹康宁片",
+				"参黄淮山粉",
+				"芊优酵素"
+			]
+		},
+		"改善眼干、眼疲劳": {
+			"label": "改善眼干、眼疲劳",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 27,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"葡萄籽VE软胶囊",
+				"盈润舒活眼霜"
+			]
+		},
+		"改善怕冷、手足冰凉": {
+			"label": "改善怕冷、手足冰凉",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 1,
+					"satisfied": false
+				},
+				{
+					"type": "gradeText",
+					"no": 2,
+					"satisfied": false
+				},
+				{
+					"type": "gradeText",
+					"no": 3,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"松花参宝片",
+				"松花芪蓉酒",
+				"玛咖压片糖果"
+			]
+		},
+		"淡斑、祛斑": {
+			"label": "淡斑、祛斑",
+			"conditions": [
+				{
+					"type": "gradePhoto",
+					"no": 2,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"靓颜胶囊",
+				"番茄红素软胶囊",
+				"珍白防晒露"
+			]
+		},
+		"皮肤补水": {
+			"label": "皮肤补水",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 13,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"磷脂大豆异黄酮软胶囊(女性)",
+				"松花粉鱼胶原蛋白葡萄糖酸锌片",
+				"香兰阁润妍系列",
+				"香兰阁沁泽润体乳"
+			]
+		},
+		"改善油性肌肤": {
+			"label": "改善油性肌肤",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 7,
+					"satisfied": false
+				},
+				{
+					"type": "gradePhoto",
+					"no": 3,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"香兰阁清颜系列",
+				"香兰阁男士面部护理系列"
+			]
+		},
+		"清咽润喉": {
+			"label": "清咽润喉",
+			"conditions": [
+				{
+					"type": "gradeText",
+					"no": 14,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"天赐余甘压片糖果",
+				"竹菊百合粉",
+				"黄精玉竹粉"
+			]
+		},
+		"改善更年期表现": {
+			"label": "改善更年期表现",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 16,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"磷脂大豆异黄酮软胶囊(女性)",
+				"玛咖压片糖果",
+				"松花钙奶粉"
+			]
+		},
+		"调节血脂": {
+			"label": "调节血脂",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 3,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"竹康宁片",
+				"清源纳豆压片糖果"
+			]
+		},
+		"改善脂肪肝": {
+			"label": "改善脂肪肝",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 12,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花伴侣片",
+				"竹康宁片",
+				"清源纳豆压片糖果"
+			]
+		},
+		"改善贫血": {
+			"label": "改善贫血",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 8,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"红杞太和粉",
+				"松花粉",
+				"松花参宝片",
+				"参黄淮山粉"
+			]
+		},
+		"改善前列腺功能": {
+			"label": "改善前列腺功能",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 10,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"番茄红素软胶囊",
+				"葡萄籽VE软胶囊",
+				"松花粉"
+			]
+		},
+		"改善痛风": {
+			"label": "改善痛风",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 9,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"青梅压片糖果",
+				"竹康宁片"
+			]
+		},
+		"改善敏感肌肤": {
+			"label": "改善敏感肌肤",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 13,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"青梅压片糖果",
+				"葡萄籽VE软胶囊",
+				"香兰阁和颜系列",
+				"香苏回青粉"
+			]
+		},
+		"改善心脑血管": {
+			"label": "改善心脑血管",
+			"conditions": [
+				{
+					"type": "pastHistory",
+					"no": 2,
+					"satisfied": false
+				},
+				{
+					"type": "pastHistory",
+					"no": 6,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"葡萄籽VE软胶囊",
+				"竹康宁片",
+				"清源纳豆压片糖果"
+			]
+		},
+		"平和质养生": {
+			"label": "平和质保健",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 0,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"红杞太和粉",
+				"松花粉",
+				"竹康宁片",
+				"靓颜胶囊",
+				"矿泉仿生杯"
+			]
+		},
+		"气虚质养生": {
+			"label": "调理气虚质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 1,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"参黄淮山粉",
+				"松花粉",
+				"竹康宁片",
+				"竹菊百合粉",
+				"玛咖压片糖果"
+			]
+		},
+		"气郁质养生": {
+			"label": "调理气郁质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 2,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"金佛苏甘粉",
+				"磷脂大豆异黄酮软胶囊(女性)",
+				"玛咖压片糖果",
+				"冷榨亚麻籽油"
+			]
+		},
+		"湿热质养生": {
+			"label": "调理湿热质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 3,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"金簪清落粉"
+			]
+		},
+		"痰湿质养生": {
+			"label": "调理痰湿质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 4,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松苓薏仁粉"
+			]
+		},
+		"血瘀质养生": {
+			"label": "调理血瘀质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 5,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"products": [
+				"桃仁内金粉"
+			]
+		},
+		"特禀质养生": {
+			"label": "调理特禀质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 6,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"香苏回青粉",
+				"红·红茶",
+				"冷榨亚麻籽油",
+				"松花粉"
+			]
+		},
+		"阳虚质养生": {
+			"label": "调理阳虚质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 7,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"北草姜桂粉",
+				"松花酒",
+				"松花钙奶粉"
+			]
+		},
+		"阴虚质养生": {
+			"label": "调理阴虚质",
+			"conditions": [
+				{
+					"type": "tizhi",
+					"no": 8,
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"黄精玉竹粉",
+				"松花杞黄酒",
+				"竹菊百合粉",
+				"双松片"
+			]
+		},
+		"左寸(心)不足": {
+			"label": "左寸(心)不足",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "0弱",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"竹菊百合粉"
+			]
+		},
+		"左寸(心)热盛": {
+			"label": "左寸(心)热盛",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "0强",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"双松片",
+				"竹康宁片"
+			]
+		},
+		"左关(肝阴)不足": {
+			"label": "左关(肝阴)不足",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "1弱",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"黄精玉竹粉",
+				"松花杞黄酒"
+			]
+		},
+		"左关(肝胆)热盛": {
+			"label": "左关(肝胆)热盛",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "1强",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花伴侣片",
+				"竹菊百合粉",
+				"竹叶清茶",
+				"天赐余甘压片糖果",
+				"竹珍系列牙膏"
+			]
+		},
+		"右寸(肺气)不足": {
+			"label": "右寸(肺气)不足",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "3弱",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花粉",
+				"竹康宁片"
+			]
+		},
+		"右寸(肺与大肠)热盛": {
+			"label": "右寸(肺与大肠)热盛",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "3强",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"竹菊百合粉",
+				"松花木寡糖",
+				"亚麻籽油"
+			]
+		},
+		"右关(脾气)不足": {
+			"label": "右关(脾气)不足",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "4弱",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"参黄淮山粉",
+				"松花粉",
+				"松花参宝片"
+			]
+		},
+		"右关(脾胃)热盛": {
+			"label": "右关(脾胃)热盛",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "4强",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花伴侣片",
+				"竹菊百合粉"
+			]
+		},
+		"双尺(肾)不足": {
+			"label": "双尺(肾)不足",
+			"conditions": [
+				{
+					"type": "zangfu",
+					"no": "2弱",
+					"satisfied": false
+				},
+				{
+					"type": "zangfu",
+					"no": "5弱",
+					"satisfied": false
+				}
+			],
+			"satisfied": false,
+			"focus": true,
+			"products": [
+				"松花杞黄酒",
+				"松花粉",
+				"玛咖压片糖果",
+				"松花芪蓉酒"
+			]
+		}
+	}
+}

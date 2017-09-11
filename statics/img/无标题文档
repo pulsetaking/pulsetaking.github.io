@@ -1,0 +1,7 @@
+for file in *.jpg
+    do convert $file ${file%%.*}.png
+done
+
+								<span v-if="map[v].required==true" class="vertical-middle" style="color:red;margin-top:20px; margin-left:50px;">
+									*
+								</span>

@@ -1,0 +1,553 @@
+{
+  "title": "国珍健康中医体制测评量表",
+  "type": "simplified",
+  "questions": [
+    {
+      "title": "一般情况",
+      "name": "commonInfo",
+      "items": [
+        {
+          "key": "name",
+          "label": "姓名",
+          "type": "text",
+          "placeholder": "",
+          "answer": ""
+        },
+        {
+          "key": "age",
+          "label": "年龄",
+          "type": "text",
+          "placeholder": "",
+          "answer": ""
+        },
+        {
+          "key": "sex",
+          "label": "性别",
+          "type": "radio",
+          "items": [
+            "男",
+            "女"
+          ],
+          "answer": ""
+        },
+        {
+          "key": "height",
+          "label": "身高",
+          "type": "text",
+          "placeholder": "cm",
+          "answer": ""
+        },
+        {
+          "key": "weight",
+          "label": "体重",
+          "type": "text",
+          "placeholder": "kg",
+          "answer": ""
+        },
+        {
+          "key": "smoking",
+          "label": "是否抽烟",
+          "type": "radio",
+          "items": [
+            "是",
+            "否"
+          ],
+          "answer": ""
+        },
+        {
+          "key": "waist",
+          "label": "腰围",
+          "type": "text",
+          "placeholder": "cm",
+          "answer": ""
+        },
+        {
+          "key": "arm",
+          "label": "前臂长",
+          "type": "text",
+          "placeholder": "cm",
+          "answer": ""
+        },
+        {
+          "key": "drinking",
+          "label": "是否饮酒",
+          "type": "radio",
+          "items": [
+            "是",
+            "否"
+          ],
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "title": "您是否有下列慢性病与健康问题",
+      "name": "pastHistory",
+      "items": [
+        {
+          "label": "无",
+          "allowInput": false,
+          "answer": false,
+          "oneline": true
+        },
+        {
+          "label": "高血压",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "高血脂症",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "糖尿病",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "便秘",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "心脑血管病（动脉硬化）",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "骨质疏松症",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "贫血",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "痛风",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "前列腺炎/前列腺钙化",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "肿瘤",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "肝脏病（脂肪肝，酒精肝炎，肝硬变等）",
+          "allowInput": false,
+          "answer": false,
+          "oneline": true
+        },
+        {
+          "label": "过敏性疾病：",
+          "allowInput": true,
+          "inputType": "checkbox",
+          "enum": [
+            {
+              "label": "皮肤病",
+              "answer": false
+            },
+            {
+              "label": "鼻炎",
+              "answer": false
+            },
+            {
+              "label": "其他",
+              "answer": false,
+              "answerText": ""
+            }
+          ],
+          "answer": false,
+          "oneline": true
+        },
+        {
+          "label": "睡眠障碍",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "免疫力下降",
+          "allowInput": false,
+          "inputType": "text",
+          "answer": false,
+          "answerText": ""
+        },
+        {
+          "label": "更年期综合症",
+          "allowInput": false,
+          "answer": false
+        },
+        {
+          "label": "记忆力减退",
+          "allowInput": false,
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "请根据近一年的体验和感觉，回答以下问题",
+      "name": "gradeText",
+      "rates": [
+        [
+          "没有",
+          "（根本不）"
+        ],
+        [
+          "很少",
+          "（有一点）"
+        ],
+        [
+          "有时",
+          "（有些）"
+        ],
+        [
+          "经常",
+          "（相当）"
+        ],
+        [
+          "总是",
+          "（非常）"
+        ]
+      ],
+      "items": [
+        {
+          "label": "您感到怕冷，衣服比别人穿得多吗？",
+          "type": "阳虚",
+          "score": 1.4,
+          "answer": 0
+        },
+        {
+          "label": "您比一般人耐受不了寒冷（冬天的寒冷，夏天的冷空调、电扇等）吗？",
+          "type": [
+            "阳虚",
+            "平和"
+          ],
+          "score": [
+            1.8,
+            2.2
+          ],
+          "answer": 0
+        },
+        {
+          "label": "您手脚发凉吗？",
+          "type": "阳虚",
+          "score": 1.2,
+          "answer": 0
+        },
+        {
+          "label": "您胃脘部、腰部或膝部怕冷吗？",
+          "type": "阳虚",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "您活动量稍大就容易出汗吗？",
+          "type": "气虚",
+          "score": 1.4,
+          "answer": 0
+        },
+        {
+          "label": "您感觉到身体沉重,不轻松或不爽快吗？",
+          "type": "痰湿",
+          "score": 1.4,
+          "answer": 0
+        },
+        {
+          "label": "您有额部油脂分泌多的现象吗？",
+          "type": "痰湿",
+          "score": 1.8,
+          "answer": 0
+        },
+        {
+          "label": "您大便黏滞不爽，有解不尽的感觉吗",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0
+        },
+        {
+          "label": "您感到口苦或嘴里有异味吗？",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0
+        },
+        {
+          "label": "您平时痰多，或咽喉部总感觉有痰堵着吗？",
+          "type": "痰湿",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "您吃（喝）凉的会感到不舒服或者怕吃喝凉的东西吗？",
+          "type": "阳虚",
+          "score": 1,
+          "answer": 0
+        },
+        {
+          "label": "您容易气短（呼吸急促，接不上气）吗？",
+          "type": "气虚",
+          "score": 1.2,
+          "answer": 0
+        },
+        {
+          "label": "您皮肤或口唇干吗？",
+          "type": "阴虚",
+          "score": 2.4,
+          "answer": 0
+        },
+        {
+          "label": "您感到口干咽燥，总想喝水吗？",
+          "type": "阴虚",
+          "score": 2.2,
+          "answer": 0
+        },
+        {
+          "label": "您容易疲乏吗？",
+          "type": [
+            "气虚",
+            "平和"
+          ],
+          "score": [
+            1.8,
+            1.6
+          ],
+          "answer": 0
+        },
+        {
+          "label": "您喜欢安静，懒得说话吗？",
+          "type": "气虚",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "您感到闷闷不乐,情绪低沉吗？",
+          "type": [
+            "气郁",
+            "平和"
+          ],
+          "score": [
+            1.6,
+            1.8
+          ],
+          "answer": 0
+        },
+        {
+          "label": "您容易精神紧张,焦虑不安吗？",
+          "type": "气郁",
+          "score": 1.8,
+          "answer": 0
+        },
+        {
+          "label": "您多愁善感，感情脆弱吗？",
+          "type": "气郁",
+          "score": 2.2,
+          "answer": 0
+        },
+        {
+          "label": "您会无缘无故地叹气吗？",
+          "type": "气郁",
+          "score": 1.4,
+          "answer": 0
+        },
+        {
+          "label": "您没有感冒时也会打喷嚏吗？",
+          "type": "特禀",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "您容易过敏（药物,食物,气味,药粉,或在季节交换时）吗？",
+          "type": "特禀",
+          "score": 2.2,
+          "answer": 0
+        },
+        {
+          "label": "您皮肤容易起荨麻疹（风团,风疹块,风疙瘩）吗？",
+          "type": "特禀",
+          "score": 1.4,
+          "answer": 0
+        },
+        {
+          "label": "您皮肤一抓就红，并且出现抓痕吗？",
+          "type": "特禀",
+          "score": 1.8,
+          "answer": 0
+        },
+        {
+          "label": "您容易生痤疮或疮疖吗？",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0
+        },
+        {
+          "label": "您容易有黑眼圈吗？",
+          "type": "血瘀",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "您感到眼睛干涩吗？",
+          "type": "阴虚",
+          "score": 1.6,
+          "answer": 0
+        },
+        {
+          "label": "28. 您带下色黄（白带颜色发黄）（女性回答）吗？",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0,
+          "gender": "女"
+        },
+        {
+          "label": "28. 阴囊潮湿多汗（男性回答）",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0,
+          "gender": "男"
+        }
+      ]
+    },
+    {
+      "title": "请根据客户体征，回答以下问题",
+      "name": "gradePhoto",
+      "rates": [
+        [
+          "没有",
+          "（根本不）"
+        ],
+        [
+          "很少",
+          "（有一点）"
+        ],
+        [
+          "有时",
+          "（有些）"
+        ],
+        [
+          "经常",
+          "（相当）"
+        ],
+        [
+          "总是",
+          "（非常）"
+        ]
+      ],
+      "items": [
+        {
+          "label": "口唇颜色偏黯么？",
+          "type": "血瘀",
+          "score": 2,
+          "answer": 0,
+          "src": [
+            "口唇色暗4.png"
+          ]
+        },
+        {
+          "label": "面色黯淡或容易出现色斑吗？",
+          "type": "血瘀",
+          "score": 1.4,
+          "answer": 0,
+          "src": [
+            "黄褐斑5.png"
+          ]
+        },
+        {
+          "label": "面部或鼻部有油腻感或油光发亮吗？",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0,
+          "src": [
+            "鼻部油光4.png",
+            "面部油光5.png"
+          ]
+        },
+        {
+          "label": "腹部肥满松软吗？",
+          "type": "痰湿",
+          "score": 2,
+          "answer": 0,
+          "src": [
+            "腹部肥满-男4.png",
+            "腹部肥满-女5.png"
+          ]
+        },
+        {
+          "label": "舌红少苔",
+          "type": "阴虚",
+          "score": 1.8,
+          "answer": 0,
+          "src": [
+            "舌红少苔4.png"
+          ]
+        },
+        {
+          "label": "舌苔厚腻或有舌苔厚的感觉",
+          "type": "痰湿",
+          "score": 1.2,
+          "answer": 0,
+          "src": [
+            "舌苔白腻4.png",
+            "舌苔白腻5.png"
+          ]
+        },
+        {
+          "label": "舌红苔黄厚腻",
+          "type": "湿热",
+          "score": 1,
+          "answer": 0,
+          "src": [
+            "舌红苔黄厚腻4.png",
+            "舌红苔黄厚腻5.png"
+          ]
+        },
+        {
+          "label": "舌体胖大有齿痕",
+          "type": [
+            "阳虚",
+            "气虚"
+          ],
+          "score": [
+            1,
+            1
+          ],
+          "answer": 0,
+          "src": [
+            "舌体胖大有齿痕3.png",
+            "舌体胖大有齿痕5.png"
+          ]
+        },
+        {
+          "label": "舌下脉络粗或者舌头有瘀点瘀斑",
+          "type": "血瘀",
+          "score": 2,
+          "answer": 0,
+          "src": [
+            "舌下静脉曲张4.png",
+            "舌下静脉曲张5.png",
+            "舌有瘀点4.png",
+            "舌有瘀点5.png"
+          ]
+        },
+        {
+          "label": "说话声音低弱无力吗？",
+          "type": [
+            "气虚",
+            "平和"
+          ],
+          "score": [
+            1,
+            2.4
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
